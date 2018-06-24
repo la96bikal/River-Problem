@@ -3,7 +3,9 @@ import queue
 class State:
     sShore=[]
     nShore=[]
+	
 
+	# Another comment just to show the second commit
     # contructor initializes to the given state
     def __init__(self,southShore, northShore, parent=None):
         #The south and the north shore
